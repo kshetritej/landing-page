@@ -124,7 +124,7 @@ header{
     width: 60vw;
     height: 200px;
     border-radius: 15px;
-    margin: auto;
+    margin: 4rem auto;
     padding: 2rem;
     display: flex;
     justify-content: space-between;
@@ -140,3 +140,11 @@ header{
 }
 
 /* cta section ends */
+
+/* footer section starts */
+footer{
+    background-color: #1f2937;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+}
