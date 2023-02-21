@@ -116,3 +116,23 @@ header{
 }
 
 /* quote section ends */
+
+/* cta section starts */
+.cta{
+    background-color: #3882f6;
+    color: #fff;
+    width: 60vw;
+    height: 200px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-btn button{
+    background-color: #fff;
+    color: #000;
+}
+
+/* cta section ends */
