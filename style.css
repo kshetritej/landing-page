@@ -20,11 +20,15 @@ button{
 }
 /* NAVBAR STARTS*/
 nav{
-    display: flex;
-    justify-content: space-between;
     background-color: #1f2937;
     padding: 2rem;
     color: #fff;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 60vw;
 }
 a{
     text-decoration: none;
@@ -42,11 +46,15 @@ a{
 /* HEADER SECTION STARTS */
 header{
     background-color: #1f2937;
-    display: flex;
     padding: 2rem;
-    justify-content: space-between;
-    flex-wrap: wrap;
     color: #fff;
+}
+.header{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
 }
 .hero-section>h1{
     font-size: 48px;
