@@ -70,11 +70,13 @@ header{
 
 /* INFORMATION SECTION STARTS */
 #information{
+    width: 60vw;
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: auto;
 }
+
 .info-heading{
     padding: 1rem;
     display: flex;
@@ -82,13 +84,12 @@ header{
 }
 .info-image{
     padding: 1rem;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .info-image > img{
     width: 200px;
     height: auto;
@@ -96,8 +97,9 @@ header{
 }
 .info{
     text-align: center;
-    width: 300px;
+    width: 200px;
     height: auto;
+    padding: 1rem;
 
 }
 
