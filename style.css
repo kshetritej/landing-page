@@ -54,6 +54,7 @@ header{
     display: flex;
     justify-content: space-between;
     margin: auto;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 .hero-section>h1{
@@ -75,6 +76,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     margin: auto;
+    gap: 2rem;
 }
 
 .info-heading{
@@ -100,6 +102,9 @@ header{
     width: 200px;
     height: auto;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
